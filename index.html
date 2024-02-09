@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html title="Torn Reminder">
   <head>
-    <meta name= “viewport” content=”width=device-width, user-scalable=no” />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Torn Reminder</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
     <link rel="manifest" href="manifest.json" />
-    <meta name="title" content="Torn Reminder"/>
-    <meta charset="utf-8" /></head
-  ><head></head>
+    <title>Torn Reminder</title>
+  <head></head>
   <body>
-    <script type="module" src="index.js"></script>
+    <script src="index.js"></script>
 
     <h1> Torn reminder</h1>
+
+    <div style="display: flex; flex-direction: row;">
+      <input type="text" id="tornAPIKey" placeholder="Torn APIKey" style="padding: 16px; margin: 32px; width: 100%;" />
+      <input type="button" id="submit"
+        value="Submit" style="padding: 16px; margin: 32px;"
+        onclick="submitAPIKey()"
+      />
+    </div>
   </body>
 </html>

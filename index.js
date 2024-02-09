@@ -57,10 +57,28 @@ function getAPIKey() {
   return localStorage.getItem("apikey");
 }
 
+function submitAPIKey() {
+  const input = document.getElementById("tornAPIKey");
+  const apiKey = input.value;
+  setAPIKey(apiKey);
+  alert("API key has been submitted")
+}
+
+function displayAPIKey() {
+  const input = document.getElementById("tornAPIKey");
+  const apiKey = getAPIKey();
+  input.value = apiKey;
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  displayAPIKey();
+})
+
 registerServiceWorker();
-setAPIKey("default");
 registerPerioridicTask();
 
 
 console.log("registering service worker");
+
+
 
