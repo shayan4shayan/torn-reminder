@@ -1,0 +1,16 @@
+{
+    "name": "Torn Reminder",
+    "short_name": "TRN",
+    "start_url": ".",
+    "display": "minimal-ui",
+    "background_color": "#fff",
+    "description": "A reminder for torn game.",
+    "icons": [
+      {
+        "src": "ic_launcher.webp",
+        "sizes": "48x48",
+        "type": "image/png"
+      }
+    ]
+  }
+  

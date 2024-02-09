@@ -1,0 +1,16 @@
+{
+  "name": "torn-reminder",
+  "version": "1.0.0",
+  "description": "uses a simple service worker to remind users about their travel time, cooldowns and other stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc"
+  },
+  "author": "shdarv",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
