@@ -75,7 +75,7 @@ window.addEventListener("DOMContentLoaded", () => {
 })
 
 registerServiceWorker();
-registerPerioridicTask();
+// registerPerioridicTask();
 
 
 console.log("registering service worker");

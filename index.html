@@ -14,12 +14,16 @@
 
     <h1> Torn reminder</h1>
 
-    <div style="display: flex; flex-direction: row;">
+    <div style="display: flex; flex-direction: row;" id="signin-form">
       <input type="text" id="tornAPIKey" placeholder="Torn APIKey" style="padding: 16px; margin: 32px; width: 100%;" />
       <input type="button" id="submit"
         value="Submit" style="padding: 16px; margin: 32px;"
         onclick="submitAPIKey()"
       />
+    </div>
+
+    <div id="reminder-list" style="display: flex; flex-direction: column;">
+      
     </div>
   </body>
 </html>

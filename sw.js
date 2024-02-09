@@ -3,5 +3,5 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("periodicsync", (event) => {
-  console.log("Periodic sync event:", event);
+  const apikey = event.tag;
 });
